@@ -1,0 +1,295 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 20px;
+	color: #5a5a5a;
+	background-color: #ffffff;
+}
+
+/*-------------------------------------*/
+/*--------HEADER-----------------------*/
+/*-------------------------------------*/
+.avatar{
+	width: 350px;
+	margin-bottom: 20px;
+	margin-top: 20px; 
+	float: left; 
+}
+
+header{
+	background-image:linear-gradient(45deg, rgba(121,54,152,0.9) 40%, rgba(193,142,218,0.85)), url('../img/background.jpg');
+	background-size: contain;	
+	background-position: center; 
+	height: 65vh;
+	background-attachment: fixed;                      /*fix vị trí bức ảnh lại*/
+}
+
+.heading-main-text{
+	clear: both;
+	width: 1140px;
+	margin: 0 auto;
+	margin-top: 30px;
+	display: inline-block;
+	float: left;
+}
+
+
+.main-nav{
+	float: right;
+	color: white;
+	list-style: none;
+	margin-top: 50px;
+	margin-right: 55px;
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.main-nav li a{
+	text-decoration: none;
+	color: white;
+	font-size: 110%;
+	font-weight: 700px;
+	transition: 0.5s;
+	padding: 10px;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+	border-bottom: 2px solid white; 
+}
+
+.clearfix::after{
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+h1{
+	text-transform: uppercase;
+	font-size: 300%;
+	color: white;
+	font-weight: 400;
+	letter-spacing: 15px;
+}
+
+.row{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-25%, -25%);
+}
+
+.header-menu{
+	background-color: #d6b4e7;
+	height: 50px;
+}
+
+.header-menu ul{
+	transform: translate(25%, 25%);
+}
+
+.header-menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.header-menu ul li a{
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	padding: 15px 50px;
+}
+
+.header-menu ul li a:hover,
+.header-menu ul li a:active{
+	color: #793698;
+}
+/*-----------------------------------------------------------------------*/
+/*------------------------SECTION----------------------------------------*/
+/*----------------------------------------------------------------------*/
+
+.information{
+	display: block;
+	position: relative;
+	margin-bottom: 0px;
+	background-image: url('../img/poster.jpg') ;
+	background-size: cover;
+	background-position: center;
+	width: 1140;
+}
+
+.picture {
+	list-style: none;
+	transform: translate(30%);
+	padding: 1% 0%;
+	border-bottom: 1px solid gray;
+	width: 35%;
+	background-color: #F2F2F2;
+}
+
+.picture img{
+	display: inline-block;
+	float: left;
+	width: 40%;
+	margin: 30px 10px;
+}
+
+.picture-title{
+	width: 30%;
+	color: black;
+	text-overflow: ellipsis;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.picture-title:hover,
+.picture-title:active{
+	color: purple;
+}
+
+/*----------------------------------------------*/
+/*------------------EVENTS----------------------*/
+/*----------------------------------------------*/
+
+.events{
+	display: block;
+	float: left;
+	background-color: #F2F2F2;
+	position: relative;
+	width: 100%;
+	padding-bottom: 10%;
+	padding-top: 5%;
+	margin-bottom: 1px;
+}
+h2{
+	font-weight: 1000;
+	transform: translate(-50%,0%);
+	letter-spacing: 3px;
+	display: inline-block;
+	color: #ff8c61;
+	border-bottom: 2px solid rgba(255,140,97,0.5);
+	position: relative;
+	top: 50%;
+	left: 50%;
+}
+.col4{
+	display: block;
+	margin-top: 2%;
+}
+.col{
+	background-color: rgba(214,180,231,0.5);
+	width: 22%;
+	margin:10px 1%;
+	float: left;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+h3{
+	background-color: purple;
+	color: white;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px;
+	text-align: center;
+}
+
+.money{
+	font-size: 200%;
+	font-weight: 700;
+	text-align: left;
+	padding-left: 30%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.money span{
+	font-size: 60%;
+	font-weight: 400;
+}
+
+.produce_text ul li{
+	list-style: none;
+	text-align: left;
+	padding-left: 30%;
+	line-height: 150%;
+}
+
+.btn{
+	display: inline-block;
+	margin: 5% 30%;
+	text-decoration: none;
+	background-color: orange;
+	border-radius: 10px;
+	padding: 10px 20px;
+	color: white;
+	text-align: center;
+	font-size: 100%;
+	width: auto;
+	text-transform: uppercase;
+}
+
+.btn:hover,
+.btn:active{
+	background-color: #fd5602;
+}
+
+/*---------------------------------------------------------------*/
+/*----------------------------contact section--------------------*/
+/*---------------------------------------------------------------*/
+.contact-section{
+	display: inline-block;
+	position:absolute;
+	width: 100%;
+	float: left;
+	padding: 5% 10%;
+	color: white;
+	background-image:linear-gradient(45deg, rgba(121,54,152,0.9) 40%, rgba(193,142,218,0.85)), url('../img/background_footer.jpg');
+}
+
+.information-detail{
+	display: inline-block;
+	float: left;
+}
+
+form{
+	background-color: rgba(144,144,144,0.5);
+	padding: 40px;
+	display: inline-block;
+	float: right;
+}
+
+form label{
+	display: inline-block;
+	font-size: 150%;
+	width: 200px;
+}
+
+form input{
+	font-size: 150%;
+	display: inline-block;
+}
+
+form div{
+	display: block;
+	padding-bottom: 10%;
+}
+
+form .btn{
+	width: 50%;
+}
+
+.information-detail{
+	font-size: 120%;
+	line-height: 130%;
+	margin-top: 20%;
+}
+
