@@ -1,0 +1,98 @@
+@media only screen and (max-width: 1200px){
+	html{
+		font-size: 16px;
+	}
+	.header-menu ul{
+		transform: translate(10%, 0%);
+		padding-top: 1%;
+	}
+
+	form label{
+		width: 100px;
+	}
+}
+
+@media only screen and (max-width: 1023px){
+
+	.header-menu ul li a{
+		padding: 10% 30px;
+	}
+
+	.information-detail{
+		margin-left: -5%;
+	}
+	form{
+		margin-right: -5%;
+		margin-top: 5%;
+		padding: 20px;
+	}
+
+	form input{
+		font-size: 100%;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.avatar{
+		width: 300px;
+		margin-left: 10%;
+	}
+
+	.main-nav li a{
+		visibility: hidden;
+	}
+
+	.header-menu{
+		visibility: hidden;
+		position: absolute;
+	}
+
+	h1{
+		font-size: 30px;
+		letter-spacing: 5px;
+		word-spacing: 0px;
+		padding-left: 100px;
+	}
+
+	.picture{
+		width: 50%;
+	}
+
+	.picture-title{
+		display: inline-block;
+		text-overflow: ellipsis;
+		display: inline;
+	}
+
+	.col{
+		width: 80%;
+		margin-left: 10%;
+		font-size: 25px;
+	}
+
+	.information-detail{
+		margin-left: 10%;
+		font-size: 22px;
+		line-height: 130%;
+	}
+
+	form{
+		transform: translate(-10%, 0%);
+	}
+}
+
+@media only screen and (max-width: 480px){
+	form{
+		transform: translate(2%, 0%);
+	}
+	.information-detail{
+		margin-left: 10%;
+		font-size: 20px;
+		line-height: 130%;
+	}
+
+	h1{
+		font-size: 25px;
+		transform: translate(4%, 0%);
+	}
+}
